@@ -77,7 +77,7 @@ def pregunta_01():
     X = df.copy()
 
     # Remueva la columna `type` del DataFrame `X`.
-    X.pop(['type'])
+    X.pop('type')
 
     # Retorne `X` y `y`
     return X, y
